@@ -24,6 +24,9 @@ eventEmitter.emit('connection');
  
 console.log("程序执行完毕。");
 
+
+
+
 var fs = require("fs");
 
 fs.readFile('input2.txt', function (err, data) {
